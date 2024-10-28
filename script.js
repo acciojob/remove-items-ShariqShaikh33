@@ -1,4 +1,5 @@
 //your JS code here. If required.
 function removeSelect() {
-	document.getElementById("colorSelect").appendChild("HTML");
+	var dropdown = document.getElementById("colorSelect");
+	dropdown.remove(dropdown.selectedIndex);
 }
